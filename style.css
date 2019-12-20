@@ -1,0 +1,185 @@
+/*HEADER*/
+
+
+.navbar {
+    background-color: #ffffff;
+    border-bottom: 2px solid #cccccc;
+}
+
+.main_header {
+    height: 70px;
+    background-color: #ffffff;
+    border-bottom: 2px solid #cccccc;   
+}
+
+.nav-link {
+    color: #777777;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    text-decoration: none;
+}
+
+.name {
+    background-color: #4aaaa5;
+    color: white;
+    font-family: 'Georgia', Times, 'Times New Roman', serif;
+    font-size: 25px;
+    font-weight: bold;
+    height: 68px;
+}
+
+
+/*GENERAL CONTENT*/
+.content {
+    border: 2px solid #dddddd;
+    background-color: #ffffff;
+}
+
+.content_all {
+    padding-top: 20px;
+}
+.content_header {
+    color: #4aaaa5;   
+    font-size: 25px;  
+    font-family: 'Georgia', Times, 'Times New Roman', serif;  
+    font-weight: bold;
+    border-bottom: 2px solid #cccccc;
+    padding-top: 8px;
+    padding-bottom: 8px;   
+}
+
+.content_header_full {
+    background-color: #ffffff;
+}
+
+.content_guts {
+    padding-top: 10px;
+}
+
+/*assigning background pattern to entire webpage*/
+html, body {
+    background-image: url(./interlaced/interlaced/interlaced.png);
+    margin: 0px;
+
+/**ADDED BELOW FOR STICKY FOOTER*/
+height: 100%;
+margin: 0;
+}
+
+/**ADDED BELOW FOR STICKY FOOTER**/
+.wrapper {
+    min-height: 100%;
+  
+    /* Equal to height of footer */
+    /* But also accounting for potential margin-bottom of last child */
+    margin-bottom: -30px;
+  }
+
+  /*footer strip*/
+.footer {
+    border-top: 8px solid #4aaaa5;
+    /*position: fixed;*/
+    top: 90%;
+    background-color: #666666;
+    height: 30px;
+}
+
+/**ADDED BELOW FOR STICKY FOOTER**/
+.push {
+    height: 30px;
+}
+
+
+
+/*ABOUT ME*/
+#bio_text {
+    line-height: 30px;
+    color: #777777;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+}
+
+
+
+/*PORTFOLIO*/
+.hangman, .trivia, .rock, .rpg, .rutgers {
+    width: 300px;
+    height: 150px;
+}
+
+
+
+
+
+/*CONTACT*/
+.contact {
+    background-color: #4aaaa5; 
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    font-weight: bold;
+    color: white;
+}
+
+
+
+/*MEDIA QUERIES*/
+
+@media screen and (min-width:779px) {
+    .navbar-brand {
+        background-color: #4aaaa5;
+        color: white;
+        font-family: 'Georgia', Times, 'Times New Roman', serif;
+        font-size: 25px;
+        font-weight: bold;
+        padding-top: 10px;
+        padding-bottom: 10px;  
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+    .hangman_label, .trivia_label, .rock_label, .rpg_label, .rutgers_label {
+        background: #4aaaa5;
+        font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+        font-weight: bold;
+        color: white;
+        position: relative;
+        bottom: 60px;
+    }    
+    .profile_image {
+        max-width: 300px;
+        padding-right:10px;    
+    }
+}
+
+@media screen and (max-width:778px) {
+    .navbar-brand {
+        background-color: #4aaaa5;
+        color: white;
+        font-family: 'Georgia', Times, 'Times New Roman', serif;
+        font-size: 25px;
+        font-weight: bold;
+        padding-top: 10px;
+        padding-bottom: 10px;  
+        padding-left: 15px;
+        padding-right: 15px;
+        width: 100%;
+        text-align: center;
+    }
+    .hangman_label, .trivia_label, .rock_label, .rpg_label, .rutgers_label {
+        background: #4aaaa5;
+        font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+        font-weight: bold;
+        color: white;
+        position: relative;
+        bottom: 60px;
+    }
+    .content_wrapper {
+        justify-content: center;
+    }
+    .nav {
+        margin: auto;
+    }
+    .profile_image {
+        max-width: 300px;
+        padding-right:10px;  
+        margin: auto;  
+    }
+
+}
+
