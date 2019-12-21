@@ -140,6 +140,7 @@ margin: 0;
         color: white;
         position: relative;
         bottom: 60px;
+        max-width: 300px;
     }    
     .profile_image {
         max-width: 300px;
@@ -169,6 +170,7 @@ margin: 0;
         color: white;
         position: relative;
         bottom: 60px;
+        max-width: 100%;
     }
     .content_wrapper {
         justify-content: center;
