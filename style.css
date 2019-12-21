@@ -4,6 +4,10 @@
 .navbar {
     background-color: #ffffff;
     border-bottom: 2px solid #cccccc;
+    padding-left: 0px;
+    padding-right: 0px;
+    padding-top: 0px;
+    padding-bottom:0px;
 }
 
 .main_header {
@@ -133,6 +137,7 @@ margin: 0;
         padding-bottom: 10px;  
         padding-left: 15px;
         padding-right: 15px;
+
     }
     .hangman_label, .trivia_label, .rock_label, .rpg_label, .rutgers_label {
         background: #4aaaa5;
@@ -178,12 +183,12 @@ margin: 0;
     .content_wrapper {
         justify-content: center;
     }
-    .nav {
-        margin: auto;
-    }
     .profile_image {
         max-width: 300px;
         padding-right:10px;    
+    }
+    .nav {
+        margin: auto;
     }
 
 }
