@@ -1,6 +1,4 @@
 /*HEADER*/
-
-
 .navbar {
     background-color: #ffffff;
     border-bottom: 2px solid #cccccc;
@@ -30,7 +28,6 @@
     font-weight: bold;
     height: 68px;
 }
-
 
 /*GENERAL CONTENT*/
 .content {
@@ -76,7 +73,7 @@ margin: 0;
     /* Equal to height of footer */
     /* But also accounting for potential margin-bottom of last child */
     margin-bottom: -30px;
-  }
+}
 
   /*footer strip*/
 .footer {
@@ -87,11 +84,11 @@ margin: 0;
     height: 30px;
 }
 
+
 /**ADDED BELOW FOR STICKY FOOTER**/
 .push {
     height: 30px;
 }
-
 
 
 /*ABOUT ME*/
@@ -102,19 +99,6 @@ margin: 0;
 }
 
 
-
-/*PORTFOLIO*/
-.hangman, .trivia, .rock, .rpg, .rutgers {
-    width: 300px;
-    height: 150px;
-    margin: auto;    
-    display: block;
-}
-
-
-
-
-
 /*CONTACT*/
 .contact {
     background-color: #4aaaa5; 
@@ -122,7 +106,6 @@ margin: 0;
     font-weight: bold;
     color: white;
 }
-
 
 
 /*MEDIA QUERIES*/
@@ -146,7 +129,7 @@ margin: 0;
         color: white;
         position: relative;
         bottom: 60px;
-        max-width: 300px;
+        max-width: 200px;
         text-align: center;
         margin: auto;    
         display: block;
@@ -155,6 +138,12 @@ margin: 0;
         max-width: 300px;
         padding-right:10px;    
         float: left;
+    }
+    .hangman, .trivia, .rock, .rpg, .rutgers {
+        width: 200px;
+        height: 150px;
+        margin: auto;    
+        display: block;
     }
 }
 
@@ -179,7 +168,7 @@ margin: 0;
         color: white;
         position: relative;
         bottom: 60px;
-        max-width: 300px;
+        max-width: 200px;
         text-align: center;
         margin: auto;    
         display: block;
@@ -196,6 +185,11 @@ margin: 0;
     .nav {
         margin: auto;
     }
-
+    .hangman, .trivia, .rock, .rpg, .rutgers {
+        width: 200px;
+        height: 150px;
+        margin: auto;    
+        display: block;
+    }
 }
 
