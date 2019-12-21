@@ -103,6 +103,7 @@ margin: 0;
 .hangman, .trivia, .rock, .rpg, .rutgers {
     width: 300px;
     height: 150px;
+    margin: auto;
 }
 
 
@@ -141,6 +142,7 @@ margin: 0;
         position: relative;
         bottom: 60px;
         max-width: 300px;
+        text-align: center;
     }    
     .profile_image {
         max-width: 300px;
@@ -170,7 +172,8 @@ margin: 0;
         color: white;
         position: relative;
         bottom: 60px;
-        max-width: 100%;
+        max-width: 300px;
+        text-align: center;
     }
     .content_wrapper {
         justify-content: center;
