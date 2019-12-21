@@ -144,6 +144,7 @@ margin: 0;
     .profile_image {
         max-width: 300px;
         padding-right:10px;    
+        float: left;
     }
 }
 
@@ -177,8 +178,7 @@ margin: 0;
     }
     .profile_image {
         max-width: 300px;
-        padding-right:10px;  
-        margin: auto;  
+        padding-right:10px;    
     }
 
 }
